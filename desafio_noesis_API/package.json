@@ -1,0 +1,22 @@
+{
+  "name"       : "integration-tests",
+  "version"    : "1.0.0",
+  "description": "Integration test desafio noesis",
+  "scripts"    : {
+    "test": "mocha specs/*.spec.js --timeout 10000"
+  },
+  "author"      : "Bruno Silva",
+  "license"     : "MIT",
+  "dependencies": {
+    "body-parser"      : "^1.15.1",
+    "chai"             : "^3.5.0",
+    "express"          : "^4.16.4",
+    "express-validator": "^2.20.5",
+    "mocha"            : "^5.2.0",
+    "supertest"        : "^1.2.0"
+  },
+  "engines": {
+    "node": "4.2.2",
+    "npm" : "3.6.0"
+  }
+}
